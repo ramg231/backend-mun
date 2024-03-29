@@ -2,10 +2,10 @@ import sql from "mssql";
 import { config } from 'dotenv';
 config();
 const dbSettings = {
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  server: process.env.DB_SERVER,
-  database: process.env.DB_DATABASE,
+  user:'sa',
+  password:'Sistemas2023*',
+  server:'38.43.133.252',
+  database:'SistemaIntegralMunicipal',
   options: {
     encrypt: true,
     trustServerCertificate: true,
