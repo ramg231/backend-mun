@@ -8,7 +8,7 @@ import  cors  from "cors";
 const app = express()
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://my-project-krxnpsm9v-ramg23s-projects.vercel.app','https://my-project-ramg23s-projects.vercel.app/'],
+    origin: ['http://localhost:5173', 'https://my-project-krxnpsm9v-ramg23s-projects.vercel.app','https://my-project-opal-gamma.vercel.app'],
     credentials: true
 }));
 
